@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:langlung/component/body/profile.dart';
 
 class AppbarProfilePage extends StatefulWidget {
-  const AppbarProfilePage({super.key});
+  const AppbarProfilePage({Key? key}) : super(key: key);
 
   @override
   State<AppbarProfilePage> createState() => AppbarProfilePageState();

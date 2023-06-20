@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:langlung/component/concept1slider/concept1slider.dart';
+import 'component/body/signinup_view.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
           brightness: Brightness.light,
           primaryColorLight: Colors.white,
           primaryColor: Colors.white),
-      home: const Concept1Slider(),
+      home: const SignInUpView(),
     );
   }
 }

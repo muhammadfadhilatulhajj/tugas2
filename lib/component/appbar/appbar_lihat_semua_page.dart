@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:langlung/component/body/lihat_semua_view.dart';
 
 class AppbarLihatSemuaPage extends StatefulWidget {
-  const AppbarLihatSemuaPage({super.key});
+  const AppbarLihatSemuaPage({Key? key}) : super(key: key);
 
   @override
   State<AppbarLihatSemuaPage> createState() => _AppbarLihatSemuaPageState();

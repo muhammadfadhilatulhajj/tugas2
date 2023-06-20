@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class NoProfile extends StatefulWidget {
-  const NoProfile({super.key});
+  const NoProfile({Key? key}) : super(key: key);
 
   @override
   State<NoProfile> createState() => NoProfileState();

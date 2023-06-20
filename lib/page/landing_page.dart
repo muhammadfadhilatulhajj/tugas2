@@ -6,7 +6,7 @@ import 'package:langlung/component/body/profile.dart';
 import 'package:langlung/component/navbar/navi_bot_bar.dart';
 
 class LandingPage extends StatefulWidget {
-  const LandingPage({super.key});
+  const LandingPage({Key? key}) : super(key: key);
 
   @override
   State<LandingPage> createState() => _LandingPageState();
