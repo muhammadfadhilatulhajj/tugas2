@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "122358552586",
+    "project_id": "aplikasi-langlung",
+    "storage_bucket": "aplikasi-langlung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122358552586:android:5815e7450e5e40006427f3",
+        "android_client_info": {
+          "package_name": "com.aplikasi.langlung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122358552586-ggte2a8o3vacui0mareqoq72gmvs5huk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp3bjW0djDGUoyUWKJzVAl4Ueu6wwd47A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122358552586-ggte2a8o3vacui0mareqoq72gmvs5huk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
