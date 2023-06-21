@@ -11,9 +11,6 @@ class NoProfileState extends State<NoProfile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Page no User"),
-      ),
       body: Column(
         children: [
           const Padding(
@@ -31,7 +28,7 @@ class NoProfileState extends State<NoProfile> {
           const Padding(
             padding: EdgeInsets.only(top: 3),
             child: Text(
-              "Kamu belum punya akun yuk sambungin ! ",
+              "Page belum di kerjakan ! ",
               textAlign: TextAlign.center,
               style: TextStyle(
                   fontFamily: "New Peninin MT",
@@ -64,7 +61,7 @@ class NoProfileState extends State<NoProfile> {
                   ),
                   child: const Center(
                     child: Text(
-                      "sambungin Akun Yuk!",
+                      "Tidak bisa kemana mana",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontFamily: "Poppins",

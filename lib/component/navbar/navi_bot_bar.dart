@@ -25,7 +25,7 @@ class NaviBottomNavBar extends StatelessWidget {
               activeColor: const Color(0xff7DA5F2),
               inactiveColor: Colors.black38),
           BottomNavyBarItem(
-              title: const Text('Akun Saya'),
+              title: const Text('No Profile'),
               icon: const Icon(Icons.person),
               activeColor: const Color(0xff7DA5F2),
               inactiveColor: Colors.black38),
